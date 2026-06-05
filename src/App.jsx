@@ -18,9 +18,9 @@ function App() {
 
       {/* Neue Aufgaben hinzufpgen */}
       {/* .... */}
-      
+
     </main>
   );
-}
+}  
 
 export default App;
