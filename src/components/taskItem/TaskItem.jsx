@@ -5,8 +5,8 @@ function TaskItem({task, changeTaskStatus, deleteTask}) {
       <p>{task.description}</p>
       <p>Verantwortlich: {task.assignee}</p>
       <p>Status: {task.status}</p>
-      <button>Status ändern</button>
-      <button>Löschen</button>
+      <button onClick={() => changeTaskStatus(task.id)}>Status ändern</button>
+      <button onClick={() => deleteTask(task.id)}>Löschen</button>
     </div>
   );
 } 
